@@ -1,0 +1,21 @@
+# Terraform cache
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Variables
+terraform.tfvars
+
+# Private keys
+*.pem
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
